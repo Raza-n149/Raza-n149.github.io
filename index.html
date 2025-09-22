@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>сайт</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="bg-ex-fixed">
+	
+	<header>
+		<img id="logo" src="https://avatars.githubusercontent.com/u/230995912?s=400&u=87acf74f691e8e51e6c9219a0b545e663f22663f&v=4"  alt="leo 1A5">	
+	<nav>
+		<div class="navig">
+		<h2><a style="margin-right: 150px; color: black; text-decoration: none;" href="#table" title="table">table</a>
+		<a style="margin-right: 150px; color: black; text-decoration: none;" href="#link" title="down">link</a>
+		<a style="color: black; text-decoration: none;" href="#form" title="form">form</a></h2>
+		</div>
+	</nav>
+	<div class="hed">
+		<h2 style="margin-left: 80px;">задание 2</h2>
+	</div>
+	
+	</header>
+	<div id="link"> </div>
+<div class="href"><h2>Ссылки</h2>
+	<ul>
+	<li> <a href = "https://www.kubsu.ru/index.php" title="Главная страница сайта КубГУ"> 1) Абсолютная гиперссылка на главную страницу сайта kubsu.ru </a> </li>
+	<li> <a href="https://www.kubsu.ru/" title="Начальная страница сайта КубГУ"> 2) Абсолютная гиперссылка на главную сайта kubsu.ru в протоколе https </a> </li>
+	<li> 3) Ссылка-изображение <br>
+		 <a href="https://www.zastavki.com/rus/World/Canada/wallpaper-65436-9.htm"></li> 
+    <img src="https://www.zastavki.com/pictures/1152x864/2014/World___Canada_Lake_in_Banff_National_Park__Alberta__Canada_065436_9.jpg" alt="Фото" width="50" height="50"> 
+            	</a>
+        </li>
+        <li> <a href="/inside.html" title="внутренняя страница"> 4) Сокращённая ссылка на внутреннюю страницу </a> </li>
+	<li> <a href="#down" title="вниз"> 6) Ссылка на фрагмент текущей страницы </a> </li>
+	
+        <li> <a href="/inside.html?file=inside&catalog=2&type=html" title="внутренняя страница"> 7) Ссылка с тремя параметрами в URL </a> </li>
+        <li> <a href="inside.html?id=150" title="внутренняя страница"> 8) Ссылка с параметром id в URL </a> </li>
+        <li> <a href="./inside.html" title="внутренняя страница"> 9) Относительная ссылка на страницу в текущем каталоге </a> </li>
+        <li> <a href="./about/in_inside.html" title="in_inside страница"> 10) Относительная ссылка на страницу в каталоге about </a> </li>
+        <li> 13) Контекстная <a href="https://ru.wikipedia.org/wiki/%D0%A2-62" title="Танк Т-62"> ссылка </a> в тексте абзаца </li>
+        <li> <a href="https://ru.wikipedia.org/wiki/%D0%A2-62#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8" title="Танк Т-62, советские модификации"> 14) Ссылка на фрагмент страницы стороннего сайта </a> </li>
+        <li>
+            15) Ссылки из прямоугольных и круглых областей картинки <br>
+		<li>
+            <img src="https://thumbs.dreamstime.com/z/geometric-shape-square-circle-triangle-rectangle-icon-vector-illustration-isolated-white-background-194796064.jpg" alt="Shapes" usemap="#shapesMap" width="300px" height="300px">
+            <map name="shapesMap">
+                <!-- Круглая область -->
+                <area shape="circle" coords="215,85,50" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Qfiij5GwqR66rg0-yvHmV769_RbfhAsSVQ&s" alt="Circle">
+                <!-- Прямоугольная область -->
+                <area shape="rect" coords="170,170,290,260" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqyc5mJuhdqmBDhbuT07-RxPobTcJZe4-8g&s" alt="Rectangle">
+            </map>
+        </li>
+        <li> <a href="" > 16) Ссылка с пустым href </a> </li>
+        <li> <a title="Не является ссылкой"> 17) Ссылка без href </a> </li>
+        <li> <a href="inside.html" title="inside страница" rel="nofollow"> 18) Ссылка, по которой запрещён переход поисковикам </a> </li>
+        <li>
+		<!-- <noindex> -->
+                	<a href="inside.html" title="noindex"> 19) Запрещённая ссылка для индексации поисковиками </a>
+            	<!-- </noindex> -->
+        </li>
+		
+        <li> 20) Нумерованный список ссылок с подписями title
+            <ol>
+                <li> <a href="https://wiki.warthunder.ru/%D0%A2-80%D0%A3" title="Характеристики Т-80У в игре Вар Тандер"> Ссылка на сайт </a> </li>
+		<li> <a href="https://ru.pinterest.com/pin/5981411987685114/" title="Окраска модели"> Ссылка на пинтерест </a> </li>
+                <li> <a href="https://www.youtube.com/channel/UCdKuE7a2QZeHPhDntXVZ91w" title="канал: Kuplinov -> play"> Ссылка на ютуб </a> </li>
+            </ol>
+        </li>
+        <li> <a href ="ftp://username:password@ftp.test.com:16/file.txt" > 21) Ссылка на файл на сервере FTP с авторизацией </a> </li>
+    </ul></div>
+	<div class="blok">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td> Name </td>
+                        <td> Surname </td>
+                        <td> Old </td>
+                        <td> Height </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 1 </td>
+                        <td> 19 </td>
+                        <td> 164 </td>
+                    </tr>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 2 </td>
+                        <td> 19 </td>
+                        <td> 120 </td>
+                    </tr>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 3 </td>
+                        <td> 19 </td>
+                        <td> 163,5 </td>
+                    </tr>
+			<tr>
+                        <td> Человек </td>
+                        <td> 4 </td>
+                        <td> 18 </td>
+                        <td> 170 </td>
+                    </tr>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 5 </td>
+			<td> 18 </td>
+                        <td> 186 </td>
+                    </tr>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 6 </td>
+                        <td> 19 </td>
+                        <td> 170 </td>
+                    </tr>
+                    <tr>
+                        <td> Человек </td>
+                        <td> 7 </td>
+                        <td> 19 </td>
+                        <td> 170 </td></tr>
 
+                    <tr>
+                        <td> Человек </td>
+                        <td> 8 </td>
+                        <td> 19 </td>
+                        <td> 170 </td></tr>
+
+                    <tr>
+                        <td> Человек </td>
+                        <td> 9 </td>
+                        <td> 19 </td>
+                        <td> 163 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+ <div id="form"> </div>
+ <div class="href"> <h2 style="margin: auto; width: 300px;">Форма</h2>
+
+    	<form action="/" method="POST" style="margin: auto; width: 300px;">
+
+	<label>
+	        напишите ФИО:<br>
+	        <input name="field-name" placeholder="Иванов Иван Иванович">
+      	</label> <br>
+
+      	<label>
+        	номер телефона:<br>
+        	<input name="field-tel" type="tel" placeholder="Введите номер телефона">
+      	</label><br>
+
+	<label>
+        	email:<br>
+        	<input name="field-email" type="email" placeholder="Введите ваш email">
+      	</label><br>
+
+      	<label>
+        	Выберите дату рождения:<br>
+        	<input name="field-data" value="2000-01-01" type="date">
+      	</label><br>
+
+ Пол:<br>
+      	<label> 
+		<input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        Муж
+	</label>
+      	<label>
+		<input type="radio" name="radio-group-1" value="Значение2">
+        Жен
+	</label><br>
+
+	<label>
+        	Ваш ллюбимый язык программирования?: <br>
+        	<select name="field-name[]"
+		          multiple="multiple">
+		          <option value="Значение1">Pascal</option>
+		          <option value="Значение2" selected="selected">C</option>
+		          <option value="Значение3" selected="selected">C++</option>
+			  <option value="Значение4" selected="selected">JavaScript</option>
+			  <option value="Значение5" selected="selected">PHP</option>
+			  <option value="Значение6" selected="selected">Java</option>
+			  <option value="Значение7" selected="selected">Python</option>
+			  <option value="Значение8" selected="selected">Haskel</option>
+			  <option value="Значение9" selected="selected">Clojure</option>
+			  <option value="Значение10" selected="selected">Prolog</option>
+			  <option value="Значение11" selected="selected">Scala</option>
+        	</select>
+      	</label><br>
+
+	<label>
+        	Ваша биография:<br>
+        	<textarea name="field-name" placeholder="где работаете и т.д."></textarea>
+      	</label><br>
+
+С контрактом:<br>
+      	<label><input type="checkbox" checked="checked" name="check-1">
+        Ознакомлен (а)
+	</label><br>
+
+	<input type="submit" value="Сохранить">
+
+	</form></div>
+	<div id="down"> </div>
+	<footer> Namitokova Raza </footer>
+</body>
+</html>
