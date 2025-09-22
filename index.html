@@ -1,185 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task2</title>
-    <link rel="stylesheet" href="style.css">
+    <title>сайт</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bg-ex-fixed">
+	
+	<header>
+		<img id="logo" src="https://nik125y.github.io/foto/tnk.png"  alt="leo 1A5">	
+	<nav>
+		<div class="navig">
+		<h2><a style="margin-right: 150px; color: black; text-decoration: none;" href="#table" title="table">table</a>
+		<a style="margin-right: 150px; color: black; text-decoration: none;" href="#link" title="down">link</a>
+		<a style="color: black; text-decoration: none;" href="#form" title="form">form</a></h2>
+		</div>
+	</nav>
+	<div class="hed">
+		<h2 style="margin-left: 80px;">задание 2</h2>
+	</div>
+	
+	</header>
+	<div id="link"> </div>
+<div class="href"><h2>Ссылки</h2>
+	<ul>
+	<li> <a href = "https://www.kubsu.ru/index.php" title="Главная страница сайта КубГУ"> 1) Абсолютная гиперссылка на главную страницу сайта kubsu.ru </a> </li>
+	<li> <a href="https://www.kubsu.ru/" title="Начальная страница сайта КубГУ"> 2) Абсолютная гиперссылка на главную сайта kubsu.ru в протоколе https </a> </li>
+	<li> 3) Ссылка-изображение <br>
+		<a href="https://wiki.warthunder.ru/%D0%A2-34-85" title="T-34-85">
+			<img src="https://nik125y.github.io/foto/imageT.jpg" width="400" alt="T-34-85" title="T-34-85" style="margin-left: 150px;">
+            	</a>
+        </li>
+        <li> <a href="/inside.html" title="внутренняя страница"> 4) Сокращённая ссылка на внутреннюю страницу </a> </li>
+	<li> <a href="#down" title="вниз"> 6) Ссылка на фрагмент текущей страницы </a> </li>
+	
+        <li> <a href="/inside.html?file=inside&catalog=2&type=html" title="внутренняя страница"> 7) Ссылка с тремя параметрами в URL </a> </li>
+        <li> <a href="inside.html?id=150" title="внутренняя страница"> 8) Ссылка с параметром id в URL </a> </li>
+        <li> <a href="./inside.html" title="внутренняя страница"> 9) Относительная ссылка на страницу в текущем каталоге </a> </li>
+        <li> <a href="./about/in_inside.html" title="in_inside страница"> 10) Относительная ссылка на страницу в каталоге about </a> </li>
+        <li> 13) Контекстная <a href="https://ru.wikipedia.org/wiki/%D0%A2-62" title="Танк Т-62"> ссылка </a> в тексте абзаца </li>
+        <li> <a href="https://ru.wikipedia.org/wiki/%D0%A2-62#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8" title="Танк Т-62, советские модификации"> 14) Ссылка на фрагмент страницы стороннего сайта </a> </li>
+        <li>
+            15) Ссылки из прямоугольных и круглых областей картинки <br>
+		<img src="https://nik125y.github.io/foto/image.jpg" alt="Газания" width="400" usemap="#Flower" style="margin-left: 150px;">
+            <map name="Flower">
+                <area shape="circle" coords="200,140,50" alt="круг" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" title="Круглая область">
+                <area shape="rect" coords="350,0,400,120" alt="прямоугольник" href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" title="Прямоугольная область">
+            </map>
+        </li>
+        <li> <a href="" > 16) Ссылка с пустым href </a> </li>
+        <li> <a title="Не является ссылкой"> 17) Ссылка без href </a> </li>
+        <li> <a href="inside.html" title="inside страница" rel="nofollow"> 18) Ссылка, по которой запрещён переход поисковикам </a> </li>
+        <li>
+		<!-- <noindex> -->
+                	<a href="inside.html" title="noindex"> 19) Запрещённая ссылка для индексации поисковиками </a>
+            	<!-- </noindex> -->
+        </li>
+		
+        <li> 20) Нумерованный список ссылок с подписями title
+            <ol>
+                <li> <a href="https://wiki.warthunder.ru/%D0%A2-80%D0%A3" title="Характеристики Т-80У в игре Вар Тандер"> Ссылка на сайт </a> </li>
+		<li> <a href="https://ru.pinterest.com/pin/5981411987685114/" title="Окраска модели"> Ссылка на пинтерест </a> </li>
+                <li> <a href="https://www.youtube.com/channel/UCdKuE7a2QZeHPhDntXVZ91w" title="канал: Kuplinov -> play"> Ссылка на ютуб </a> </li>
+            </ol>
+        </li>
+        <li> <a href ="ftp://username:password@ftp.test.com:16/file.txt" > 21) Ссылка на файл на сервере FTP с авторизацией </a> </li>
+    </ul></div>
+	<div id="table"> </div>
+<div class="tab">
+	<div class="centert">
+	 <table>
+      <tr>
+        <th>Колонка 1</th>
+        <th>Колонка 2</th>
+	<th>Колонка 3</th>
+	<th>Колонка 4</th>
+	<th>Колонка 5</th>
+      </tr>
+	 <tr>
+        <td colspan="2">Ячейка 11 объединенная с 12</td>
+	<td>Ячейка 13</td>
+	<td>Ячейка 14</td>
+	<td>Ячейка 15</td>
+       </tr>
+     <tr>
+        <td>Ячейка 21</td>
+	<td colspan="3">Ячейка 23 объединенная с 23,24 </td>
+	<td>Ячейка 25</td>
+      </tr> 
+	<tr>
+        <td colspan="5">Ячейка 31 объединенная с 32,33,34,35 </td>
+      </tr>
+	<tr>
+        <td>Ячейка 41</td>
+	<td>Ячейка 42</td>
+	<td>Ячейка 43</td>
+	<td>Ячейка 44</td>
+	<td>Ячейка 45</td>
+      </tr>
+	<tr>
+        <td colspan="2">Ячейка 51 объединенная с 52 </td>
+	<td>Ячейка 53</td>
+	<td colspan="2">Ячейка 54 объединенная с 55 </td>
+      </tr>
+	<tr>
+        <td>Ячейка 61</td>
+	<td>Ячейка 62</td>
+	<td>Ячейка 63</td>
+	<td>Ячейка 64</td>
+	<td>Ячейка 65</td>
+      </tr>
+    </table></div></div>
+ <div id="form"> </div>
+ <div class="href"> <h2 style="margin: auto; width: 300px;">Форма</h2>
 
-    <header id="header">
-        <div class="logo">
-            <img src="LOGO.jpg" alt="Логотип">
-            <h1>Site number 2</h1>
-        </div>
-        <nav id="nav">
-            <ul>
-                <li><a href="#links">Ссылки</a></li>
-                <li><a href="#table">Таблица</a></li>
-                <li><a href="#form">Форма</a></li>
-            </ul>
-        </nav>
-    </header>
+    	<form action="/" method="POST" style="margin: auto; width: 300px;">
 
-    <main class="main">
-        <div class="container" id="links">
-          <h2> Гиперссылки: </h2>
-          <ul>
-              <li> <a href="http://kubsu.ru">абсолютную гиперссылку на главную страницу сайта kubsu.ru</a></li>
-              <li> <a href="https://kubsu.ru">абсолютную на главную сайта kubsu.ru в протоколе https </a> </li>
-              <li> <a href="https://shop.wwf.ca/cdn/shop/files/giant-panda-WW230176.jpg?v=1694540662&width=2048">ссылку-изображение</a> 
-                  <img src="https://shop.wwf.ca/cdn/shop/files/giant-panda-WW230176.jpg?v=1694540662&width=2048" alt = "panda" width="100px"> </li>
-              <li> <a href="/internal-page">сокращенную ссылку на внутреннюю страницу</a></li>
-              <li> <a href="/">сокращенную ссылку на главную страницу</a></li>
-              <li> <a href="#fragment-page">ссылку на фрагмент текущей страницы</a></li>
-              <li> <a href="https://ozon.com/page?param1=value1&param2=value2&param3=value3">ссылку с тремя параметрами в URL</a></li>
-              <li> <a href="https://airbnb.com/page?id=202529">ссылку с параметром id в URL</a></li>
-              <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
-              <li><a href="about/html">Относительная ссылка на страницу в каталоге about</a></li>
-              <li><a href="../site.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
-              <li><a href="../../site.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
-              <li> Контекстная <a href="https://example.com">ссылка </a> в абзаце</li>
-              <li><a href="http://kubsu.ru#fragment">Ссылка на фрагмент страницы стороннего сайта</a></li>
-              <li>
-                  <img src="https://thumbs.dreamstime.com/z/geometric-shape-square-circle-triangle-rectangle-icon-vector-illustration-isolated-white-background-194796064.jpg" alt="Shapes" usemap="#shapesMap" width="300px" height="300px">
-                  <map name="shapesMap">
-                      <!-- Круглая область -->
-                      <area shape="circle" coords="215,85,50" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Qfiij5GwqR66rg0-yvHmV769_RbfhAsSVQ&s" alt="Circle">
-                      <!-- Прямоугольная область -->
-                      <area shape="rect" coords="170,170,290,260" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqyc5mJuhdqmBDhbuT07-RxPobTcJZe4-8g&s" alt="Rectangle">
-                  </map>
-              </li>
-              <li><a href="">Ссылка с пустым href</a></li>
-              <li><a>Ссылка без href</a></li>
-              <li><a rel="nofollow" href="https://google.com">Ссылка по которой запрещен переход поисковикам</a></li>
-              <li><a rel="noindex" href="https://google.com">Запрещенная для индексации поисковиками</a></li>
-              <li>
-                  <ol>
-                      <li><a href="https://ozon.ru" title="Магазин OZON">Первая ссылка</a></li>
-                      <li><a href="https://yandex.ru" title="Браузер Yandex">Вторая ссылка</a></li>
-                  </ol>
-              </li>
-              <li><a href="ftp://egor:qwerty12345@ftp.admin./file.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
-          </ul>
-        </div>
-        
-        <div class="container">
-            <h2> Таблица сравнения телефонов: </h2>
-            <table id="table">
-                <tr>
-                    <th>Название</th>
-                    <th>Цена</th>
-                    <th>Общая оценка</th>
-                    <th>Плюсы и минусы</th>
-                </tr>
-                <tr>
-                    <td>iPhone 13 Pro</td>
-                    <td>120 000 ₽</td>
-                    <td>9/10</td>
-                    <td><span class="positive">+ Отличная камера</span><br><span class="negative">- Высокая цена</span></td>
-                </tr>
-                <tr>
-                    <td>Samsung Galaxy S21</td>
-                    <td>85 000 ₽</td>
-                    <td>8.5/10</td>
-                    <td><span class="positive">+ Высокая производительность</span><br><span class="negative">- Пластиковый корпус</span></td>
-                </tr>
-                <tr>
-                    <td>Xiaomi Mi 11</td>
-                    <td>65 000 ₽</td>
-                    <td>8/10</td>
-                    <td><span class="positive">+ Доступная цена</span><br><span class="negative">- Плохая поддержка обновлений</span></td>
-                </tr>
-                <tr>
-                    <td>Google Pixel 6</td>
-                    <td>70 000 ₽</td>
-                    <td>9.5/10</td>
-                    <td><span class="positive">+ Чистый Android</span><br><span class="negative">- Доступность только в некоторых странах</span></td>
-                </tr>
-                <tr>
-                    <td>OnePlus 9</td>
-                    <td>75 000 ₽</td>
-                    <td>9/10</td>
-                    <td><span class="positive">+ Быстрая зарядка</span><br><span class="negative">- Посредственная камера</span></td>
-                </tr>
-                <tr>
-                    <td>Huawei P50 Pro</td>
-                    <td>90 000 ₽</td>
-                    <td>8.8/10</td>
-                    <td><span class="positive">+ Отличная камера</span><br><span class="negative">- Нет Google сервисов</span></td>
-                </tr>
-                <tr>
-                    <td>Realme GT 2 Pro</td>
-                    <td>55 000 ₽</td>
-                    <td>8.3/10</td>
-                    <td><span class="positive">+ Мощный процессор</span><br><span class="negative">- Плохая оптимизация ПО</span></td>
-                </tr>
-        </table>
-        </div>
-        <div class = "container" id="form">
-                    <h2> Формы: </h2>
-            <ul>
-                <form>
-                    <li>
-                        <label for="name">Ваше ФИО: </label>
-                        <input id="name" type="text">
-                    </li>
-                    <li>
-                        <label for="phone">Ваш номер телефона: </label>
-                        <input id="phone" type="tel">
-                    </li>
-                    <li>
-                        <label for="email">Ваша электронная почтв: </label>
-                        <input id="email" type="email">
-                    </li>
-                    <li>
-                        <label for="birthday">Ваша дата рождения: </label>
-                        <input id="birthday" type="date">
-                    </li>
-                    <li>
-                        <label for="gender">Ваш пол: </label>
-                        <input type="radio" name="gender" id="male" value="male"> 
-                        <label for="male">Мужской</label>
-                        <input type="radio" name="gender" id="female" value="female"> 
-                        <label for="female">Женский</label>
-                    </li>
-                    <li>
-                        <label for="languages">Ваш любимый язык программирования: </label>
-                        <select name="languages[]" id="languages" multiple>
-                            <option value="Pascal">Pascal</option>
-                            <option value="C">C</option>
-                            <option value="C++">C++</option>
-                            <option value="JavaScript">JavaScript</option>
-                            <option value="PHP">PHP</option>
-                            <option value="Python">Python</option>
-                            <option value="Java">Java</option>
-                            <option value="Haskel">Haskel</option>
-                            <option value="Clojure">Clojure</option>
-                            <option value="Prolog">Prolog</option>
-                            <option value="Scala">Scala</option>
-                        </select>
-                    </li>
-                    <li>
-                        <label for="bio">Биография: </label>
-                        <textarea name="bio" id="bio" rows = 5 col = 20></textarea>
-                    </li>
-                    <li>
-                        <label for="check">С конрактом ознакомлен: </label>
-                        <input type="checkbox" name="check" id="check">
-                    </li>
-                    <li>
-                        <input type="submit" value="Сохранить"> 
-                    </li>
-                </form>
-            </ul>
-        </div>
-    </main>
+	<label>
+	        напишите ФИО:<br>
+	        <input name="field-name" placeholder="Иванов Иван Иванович">
+      	</label> <br>
 
-    <footer>
-        <div class="footer-content">Made with ❤️ by Namitokova</div>    
-    </footer>
-    
+      	<label>
+        	номер телефона:<br>
+        	<input name="field-tel" type="tel" placeholder="Введите номер телефона">
+      	</label><br>
 
+	<label>
+        	email:<br>
+        	<input name="field-email" type="email" placeholder="Введите ваш email">
+      	</label><br>
+
+      	<label>
+        	Выберите дату рождения:<br>
+        	<input name="field-data" value="2000-01-01" type="date">
+      	</label><br>
+
+ Пол:<br>
+      	<label> 
+		<input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        Муж
+	</label>
+      	<label>
+		<input type="radio" name="radio-group-1" value="Значение2">
+        Жен
+	</label><br>
+
+	<label>
+        	Ваш ллюбимый язык программирования?: <br>
+        	<select name="field-name[]"
+		          multiple="multiple">
+		          <option value="Значение1">Pascal</option>
+		          <option value="Значение2" selected="selected">C</option>
+		          <option value="Значение3" selected="selected">C++</option>
+			  <option value="Значение4" selected="selected">JavaScript</option>
+			  <option value="Значение5" selected="selected">PHP</option>
+			  <option value="Значение6" selected="selected">Java</option>
+			  <option value="Значение7" selected="selected">Python</option>
+			  <option value="Значение8" selected="selected">Haskel</option>
+			  <option value="Значение9" selected="selected">Clojure</option>
+			  <option value="Значение10" selected="selected">Prolog</option>
+			  <option value="Значение11" selected="selected">Scala</option>
+        	</select>
+      	</label><br>
+
+	<label>
+        	Ваша биография:<br>
+        	<textarea name="field-name" placeholder="где работаете и т.д."></textarea>
+      	</label><br>
+
+С контрактом:<br>
+      	<label><input type="checkbox" checked="checked" name="check-1">
+        Ознакомлен (а)
+	</label><br>
+
+	<input type="submit" value="Сохранить">
+
+	</form></div>
+	<div id="down"> </div>
+	<footer> Namitokova Raza </footer>
 </body>
 </html>
